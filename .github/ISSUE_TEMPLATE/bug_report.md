@@ -1,38 +1,49 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Bug Report
+about: 버그에 대해 알리고 이를 수정하기 위한 이슈를 열 수 있습니다.
 title: ''
 labels: ''
-assignees: ''
-
+assignees: happydhKim, load0ne, always-awake, aereeeee
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+# 버그 이슈 제목
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+- 육하원칙에 따른 자세한 설명일수록 좋다
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## 이슈 ❗️
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+- 어떤 문제인지 서술
+- 커밋 해쉬값
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+```javascript
+소스코드, 로그, 이미지 등
+...
+```
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+## 기대했던 결과 🥰
 
-**Additional context**
-Add any other context about the problem here.
+- `<something>`
+
+<br>
+
+## 현재 결과 🤭
+
+- `<something>`
+
+<br>
+
+## 관련된 이슈 📎
+
+> 관련 이슈 없음
+
+- issue title (#issue number)
+
+<br>
+
+## 레퍼런스 📚
+
+> 레퍼런스 없음
+
+- [title](link)
+
+<br>

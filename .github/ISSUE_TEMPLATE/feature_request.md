@@ -1,20 +1,32 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Feature Request 
+about: 기능 개발에 관련 된 이슈를 열 수 있습니다.
 title: ''
 labels: ''
-assignees: ''
-
+assignees: happydhKim
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+# [Epic#1] 이슈 제목
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+- 이슈에 대한 설명1
+- 이슈에 대한 설명2
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## 완료 조건 ✅
+
+- [ ] 조건1
+
+
+## 관련 이슈 📎
+
+> 관련 이슈 없음
+
+- 이슈명 (#이슈번호)
+
+
+## 레퍼런스 📚
+
+> 레퍼런스 없음
+
+- [레퍼런스 제목](url)
+
