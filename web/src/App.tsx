@@ -2,7 +2,9 @@ import * as React from 'react';
 
 const App = () => (
   <>
-    Hello React?
+    <div>
+      Hello React
+    </div>
   </>
 );
 

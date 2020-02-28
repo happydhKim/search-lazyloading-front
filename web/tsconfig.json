@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
     "strict": true,
     "lib": [
       "es5",
@@ -10,7 +16,10 @@
       "dom"
     ],
     "allowJs": true,
-    "baseUrl": "src",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
     "jsx": "react"
   },
   "include": [
