@@ -4,7 +4,8 @@
     "module": "commonjs",
     "baseUrl": ".",
     "typeRoots": [
-      "./node_modules/@types"
+      "./node_modules/@types",
+      "./src/@types"
     ],
     "strict": true,
     "lib": [
@@ -23,9 +24,11 @@
     "jsx": "react"
   },
   "include": [
-    "src/**/*.tsx", "src/index.tsx",
+    "config/**/*",
+    "src/**/*",
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "config"
   ]
 }
