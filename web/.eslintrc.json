@@ -26,6 +26,8 @@
     "SharedArrayBuffer": "readonly"
   },
   "rules": {
-    "@typescript-eslint/no-var-requires": "off"
+    // "@typescript-eslint/no-var-requires": "off",
+    "react/prop-types": "off",
+    "import/prefer-default-export": "off"
   }
 }
