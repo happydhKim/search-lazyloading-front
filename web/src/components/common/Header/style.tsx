@@ -23,7 +23,7 @@ const S = {
       width: 1080px;
     }
     @media (max-width: 769px) {
-      background-color: blue;
+      /* background-color: blue; */
     }
   `,
   HeaderTitle: styled.h1`
@@ -60,6 +60,9 @@ const S = {
     }
   `,
   SearchBar: styled.div`
+    @media (max-width: 769px) {
+      display: none;
+    }
     position: absolute;
     right: 135px;
     top: 13px;
@@ -164,6 +167,9 @@ const S = {
     }
   `,
   HeaderMyPage: styled.a`
+    @media (max-width: 769px) {
+      display: none;
+    }
     position: absolute;
     right: 94px;
     top: 0px;
@@ -186,26 +192,76 @@ const S = {
     @media (min-width: 769px) {
     }
   `,
-  HeaderLeftMenuList: styled.ul`
-    display: flex;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 66px;
-    -webkit-box-align: center;
-    align-items: center;
-    li {
-      position: relative;
-      height: 66px;
-      font-size: 15px;
-      color: rgb(30,30,30);
-      margin-right: 24px;
+  HeaderMobileCategory: styled.button`
+    @media (min-width: 769px) {
+      display: none;
     }
-    li > a {
+    @media (max-width: 769px) {
+      display: block;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 60px;
+      padding: 0px 10px;
+      outline: none;
+    }
+  `,
+  HeaderMobileCategoryImage: styled.span`
+    background-image: url(https://t1.kakaocdn.net/friends/kfo-common/mo/m640/img_gnb_181002.png);
+    background-size: 200px 95px;
+    display: block;
+    width: 19px;
+    height: 14px;
+    background-position: -180px 0px;
+  `,
+  HeaderMobileSearch: styled.button`
+    @media (min-width: 769px) {
+      display: none;
+    }
+    @media (max-width: 769px) {
+      display: block;
+      position: absolute;
+      left: 39px;
+      right: auto;
+      top: 0px;
+      width: 32px;
+      overflow: hidden;
+      padding: 22px 8px;
+    }
+  `,
+  HeaderMobileSearchImage: styled.span`
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(https://t1.kakaocdn.net/friends/kfo-common/mo/m640/img_gnb_181002.png);
+    background-size: 200px 95px;
+    background-position: -126px -42px;
+  `,
+  HeaderLeftMenuList: styled.ul`
+    @media (max-width: 769px) {
+      display: none;
+    }
+    @media (min-width: 769px) {
       display: flex;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 66px;
       -webkit-box-align: center;
       align-items: center;
-      height: 66px;
+      li {
+        position: relative;
+        height: 66px;
+        font-size: 15px;
+        color: rgb(30,30,30);
+        margin-right: 24px;
+      }
+      li > a {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        height: 66px;
+      }
     }
   `,
   CategoryList: styled.li`
