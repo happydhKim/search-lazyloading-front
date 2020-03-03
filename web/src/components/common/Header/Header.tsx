@@ -10,6 +10,12 @@ const Header: React.FC = () => {
         <S.HeaderTitle>
           <S.HeaderTitleImage />
         </S.HeaderTitle>
+        <S.HeaderMobileCategory>
+          <S.HeaderMobileCategoryImage />
+        </S.HeaderMobileCategory>
+        <S.HeaderMobileSearch>
+          <S.HeaderMobileSearchImage />
+        </S.HeaderMobileSearch>
         <S.HeaderLeftMenuList>
           <S.CategoryList>
             <a href="/">카테고리</a>
