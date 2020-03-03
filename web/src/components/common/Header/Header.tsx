@@ -6,7 +6,37 @@ const Header: React.FC = () => {
 
   return (
     <S.HeaderWrapper>
-      Header
+      <S.HeaderContents>
+        <S.HeaderTitle>
+          <S.HeaderTitleImage />
+        </S.HeaderTitle>
+        <S.HeaderLeftMenuList>
+          <S.CategoryList>
+            <a href="/">카테고리</a>
+          </S.CategoryList>
+          <li>
+            <a href="/">매장안내</a>
+          </li>
+          <li>
+            <a href="/">고객센터</a>
+          </li>
+        </S.HeaderLeftMenuList>
+        <S.SearchBar>
+          <S.SearchInput placeholder="무엇을 찾으세요?" />
+          <S.SearchButton>
+            <S.SearchButtonImage />
+          </S.SearchButton>
+        </S.SearchBar>
+        <S.HeaderBasket>
+          <S.HeaderBasketImage />
+        </S.HeaderBasket>
+        <S.LanguageButton>
+          <S.LanguageButtonImage />
+        </S.LanguageButton>
+        <S.HeaderMyPage>
+          <S.HeaderMyPageImage />
+        </S.HeaderMyPage>
+      </S.HeaderContents>
     </S.HeaderWrapper>
   );
 };
