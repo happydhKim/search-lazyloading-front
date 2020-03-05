@@ -24,6 +24,7 @@ yarn dev
  ┣ 📂components
  ┃ ┣ 📂base
  ┃ ┗ 📂common
+ ┣ 📂constants
  ┣ 📂pages
  ┃ ┣ 📂Basket
  ┃ ┣ 📂Customer

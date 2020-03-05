@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { DEVICE } from '@/constants';
 
 const S = {
   HeaderWrapper: styled.div`
@@ -18,11 +19,11 @@ const S = {
   HeaderContents: styled.div`
     position: relative;
     height: 100%;
-    @media (min-width: 769px) {
+    @media ${DEVICE.DESKTOP} {
       margin: 0px auto;
       width: 1080px;
     }
-    @media (max-width: 769px) {
+    @media ${DEVICE.MOBILE} {
       /* background-color: blue; */
     }
   `,
@@ -36,7 +37,7 @@ const S = {
     -webkit-box-align: center;
     align-items: center;
     margin: 0px auto;
-    @media (min-width: 769px) {
+    @media ${DEVICE.DESKTOP} {
       width: 168px;
       padding-top: 24px;
     }
@@ -52,7 +53,7 @@ const S = {
     color: transparent;
     text-indent: 0px;
     background-repeat: no-repeat;
-    @media (min-width: 769px) {
+    @media ${DEVICE.DESKTOP} {
       background-image: url(https://t1.kakaocdn.net/friends/new_store/2.0/pc/friends-logo.png);
       background-size: 168px;
       width: 168px;
@@ -60,7 +61,7 @@ const S = {
     }
   `,
   SearchBar: styled.div`
-    @media (max-width: 769px) {
+    @media ${DEVICE.MOBILE} {
       display: none;
     }
     position: absolute;
@@ -114,7 +115,7 @@ const S = {
     margin-right: -3px;
     background-color: rgb(255, 255, 255);
     padding: 21px 8px 21px 10px;
-    @media (min-width: 769px) {
+    @media ${DEVICE.DESKTOP} {
       right: 50px;
       padding: 0px;
       margin: 22.5px 0px;
@@ -127,7 +128,7 @@ const S = {
     height: 18px;
     display: block;
     background-position: -144px -40px;
-    @media (min-width: 769px) {
+    @media ${DEVICE.DESKTOP} {
       background-image: url(https://t1.kakaocdn.net/friends/new_store/2.0/pc/ico-header-basket.png);
       background-size: 17px 21px;
       width: 17px;
@@ -145,7 +146,7 @@ const S = {
     background-color: white;
     padding: 21px 10px 20px 8px;
     outline: none;
-    @media (min-width: 769px) {
+    @media ${DEVICE.DESKTOP} {
       padding: 0px;
       margin: 21.5px 0px;
     }
@@ -157,7 +158,7 @@ const S = {
     display: block;
     background-image: url(https://t1.kakaocdn.net/friends/kfo-common/mo/m640/img_gnb_181002.png);
     background-position: -82px -40px;
-    @media (min-width: 769px) {
+    @media ${DEVICE.DESKTOP} {
       width: 23px;
       height: 23px;
       background-image: url(https://t1.kakaocdn.net/friends/new_store/2.0/pc/ico-header-lang-en.png);
@@ -167,7 +168,7 @@ const S = {
     }
   `,
   HeaderMyPage: styled.a`
-    @media (max-width: 769px) {
+    @media ${DEVICE.MOBILE} {
       display: none;
     }
     position: absolute;
@@ -178,7 +179,7 @@ const S = {
     background-color: white;
     padding: 0px;
     margin: 23.5px 0px;
-    @media (min-width: 769px) {
+    @media ${DEVICE.DESKTOP} {
     }
   `,
   HeaderMyPageImage: styled.span`
@@ -189,14 +190,14 @@ const S = {
     background-size: 18px 19px;
     background-repeat: no-repeat;
     background-position: center center;
-    @media (min-width: 769px) {
+    @media ${DEVICE.DESKTOP} {
     }
   `,
   HeaderMobileCategory: styled.button`
-    @media (min-width: 769px) {
+    @media ${DEVICE.DESKTOP} {
       display: none;
     }
-    @media (max-width: 769px) {
+    @media ${DEVICE.MOBILE} {
       display: block;
       position: absolute;
       top: 0px;
@@ -215,10 +216,10 @@ const S = {
     background-position: -180px 0px;
   `,
   HeaderMobileSearch: styled.button`
-    @media (min-width: 769px) {
+    @media ${DEVICE.DESKTOP} {
       display: none;
     }
-    @media (max-width: 769px) {
+    @media ${DEVICE.MOBILE} {
       display: block;
       position: absolute;
       left: 39px;
@@ -238,10 +239,10 @@ const S = {
     background-position: -126px -42px;
   `,
   HeaderLeftMenuList: styled.ul`
-    @media (max-width: 769px) {
+    @media ${DEVICE.MOBILE} {
       display: none;
     }
-    @media (min-width: 769px) {
+    @media ${DEVICE.DESKTOP} {
       display: flex;
       position: absolute;
       top: 0px;

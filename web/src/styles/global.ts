@@ -6,7 +6,6 @@ const GlobalStyle = createGlobalStyle`
   font-family: 'Apple SD Gothic Neo', AppleSDGothicNeo, 'Malgun Gothic', '맑은 고딕', sans-serif;
   letter-spacing: -0.2px;
   font-size: 14px;
-  /* line-height: 1.5; */
   color: #1e1e1e;
   button, input {
     font-family: "Apple SD Gothic Neo", AppleSDGothicNeo, "Malgun Gothic", "맑은 고딕", sans-serif;
